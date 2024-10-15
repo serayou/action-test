@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun ActionTest(msg: String, modifier: Modifier = Modifier) {
     Text(
-        text = "$msg!",
+        text = "$msg!!",
         modifier = modifier
     )
 }
